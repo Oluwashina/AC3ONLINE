@@ -26,8 +26,6 @@
       rel="stylesheet"
     />
 
-   
-
     <!-- theme -->
     <link rel="stylesheet" href="assets/css/animate.css" />
 
@@ -38,6 +36,7 @@
 
     <!-- owl carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+
   </head>
   <body>
     <!-- preloader -->
@@ -217,32 +216,32 @@ We accept and exchange BUG AND SELL all GC ranging from Shop-Rite, Jumia, iTunes
     <!-- Counts or facts section about ac3online -->
     <div class="row" style="text-align: center; margin-top: 60px;">
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 mb-4">
           <div>
             <div class="fact_icon">
                 <i class="mdi mdi-stack-exchange"></i>
             </div>
-            <span class="fact_number counter">4,458+</span>
+            <span class="fact_number exchange" data-from="0" data-to="4458">4,458+</span>
             <p class="fact_meta">Exchange Completed</p>
           </div>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 mb-4">
         <div>
           <div class="fact_icon">
             <i class="mdi mdi-human-handsup"></i>
           </div>
-          <span class="fact_number">4,450+</span>
+          <span class="fact_number client" data-from="0" data-to="4450">4450</span>
           <p>Satisfied Clients</p>
         </div>
      </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mb-4">
           <div>
             <div class="fact_icon">
               <i class="mdi mdi-comment-quote-outline"></i>
             </div>
-            <span class="fact_number">3,901+</span>
+            <span class="fact_number feedback" data-from="0" data-to="3901">3,901</span>
             <p>Positive Feedbacks</p>
           </div>
       </div>
@@ -252,7 +251,7 @@ We accept and exchange BUG AND SELL all GC ranging from Shop-Rite, Jumia, iTunes
             <div class="fact_icon">
               <i class="mdi mdi-human-male-male"></i>
             </div>
-            <span class="fact_number">2,504+</span>
+            <span class="fact_number reward" data-from="0" data-to="2504">2,504+</span>
             <p>Referrals Rewarded</p>
           </div>
       </div>
@@ -427,7 +426,7 @@ We accept and exchange BUG AND SELL all GC ranging from Shop-Rite, Jumia, iTunes
                 class="badge p-2"
                 style="color: #fff; background-color: #ff6d3f"
               >
-                <i class="la mdi mdi-account-multiple ic-3x rotation"></i>
+                <i class="mdi mdi-account-multiple ic-3x rotation" style="display: inline-block"></i>
               </span>
               <h2 class="mt-4 text-white">Discover Our Client Feedback</h2>
               <p class="lead mb-0"></p>
@@ -760,12 +759,35 @@ We accept and exchange BUG AND SELL all GC ranging from Shop-Rite, Jumia, iTunes
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/d54c227c34.js"></script>
     <script>
-      $(document).ready(function(){
-        //  $('.counter').counterUp({
-        //     delay: 10,
-        //     time: 1000
-        //  });
-      })
+        $('.client').countTo({
+            formatter: function (value, options) {
+              value = value.toFixed(options.decimals);
+              value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+              return value;
+            }
+          });
+        $('.exchange').countTo({
+          formatter: function (value, options) {
+              value = value.toFixed(options.decimals);
+              value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+              return value;
+            }
+        });
+        $('.feedback').countTo({
+          formatter: function (value, options) {
+              value = value.toFixed(options.decimals);
+              value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+              return value;
+            }
+        });
+        $('.reward').countTo({
+          formatter: function (value, options) {
+              value = value.toFixed(options.decimals);
+              value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+              return value;
+            }
+        });
+    
     </script>
   </body>
 </html>
