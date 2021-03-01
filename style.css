@@ -31,7 +31,7 @@ body{
 }
 .loader-container .loader-ripple div {
     position: absolute;
-    border: 4px solid #e69a25;
+    border: 4px solid #ff6d3f;
     opacity: 1;
     border-radius: 50%;
     animation: loader-ripple 1s cubic-bezier(0,0.2,0.8,1) infinite;
@@ -61,7 +61,7 @@ body{
 /* hero section styles */
 .hero-area {
     /* color: #fff; */
-    background-color: #062440;
+    background-color: #152238;
     /* background-image: url('./images/hero.jpg'); */
     /* background: linear-gradient(rgba(6, 36, 64, 0.6), rgba(6, 36, 64, 0.6)), url('./images/hero.jpg'); */
     background-size: cover;
@@ -85,8 +85,8 @@ body{
     width: 17px;
     height: 17px;
     display: block;
-    border-top: 3px solid #e69a25;
-    border-left: 3px solid #e69a25;
+    border-top: 3px solid #ff6d3f;
+    border-left: 3px solid #ff6d3f;
     position: relative;
     margin-bottom: 20px;
 }
@@ -97,7 +97,7 @@ body{
     left: 3px;
     width: 5px;
     height: 5px;
-    background-color: #e69a25;
+    background-color: #ff6d3f;
 }
 
 
@@ -112,7 +112,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #062440;
+    color: #152238;
     line-height: 60px;
 }
 .about_desc {
@@ -129,7 +129,7 @@ body{
 }
 .years_title{
     position: relative;
-    color: #e69a25;
+    color: #ff6d3f;
     font-size: 18px;
     font-weight: 500;
     padding-left: 60px;
@@ -138,7 +138,7 @@ body{
     line-height: 28px;
 }
 .years_time{
-    color: #e69a25;
+    color: #ff6d3f;
     font-weight: 700;
     font-size: 62px;
     position: absolute;
@@ -161,11 +161,11 @@ body{
 
 /* services section */
 .btn-trade{
-    color: #e69a25;
-    border-color: #e69a25;
+    color: #ff6d3f;
+    border-color: #ff6d3f;
 }
 .btn-trade:hover{
-    background-color: #e69a25;
+    background-color: #ff6d3f;
     color: #fff;
 }
 
@@ -184,7 +184,7 @@ body{
 
 /* mail section */
 .mail{
-    background-color: #062440;
+    background-color: #152238;
     box-shadow: 0px 0px 30px 0px rgba(52, 74, 121, 0.25);
     padding: 20px 50px 60px 50px;
     border-radius: 18px 18px 18px 18px;
@@ -198,14 +198,14 @@ body{
     fill: #ffffff;
     color: #ffffff;
     font-weight: bold;
-    background-color: #e69a25;
+    background-color: #ff6d3f;
     border-radius: 10px 10px 10px 10px;
     padding: 25px 30px 25px 30px; 
     transition: all 0.5s ;
 }
 .mail-div:hover{
     background: #fff;
-    color: #062440;
+    color: #152238;
     text-decoration: none;
 }
 
@@ -229,7 +229,7 @@ body{
     margin-bottom: 24px;
     display: inline-block;
     position: relative;
-    color: #062440;
+    color: #152238;
 }
 .footer-title .footer-title-shape {
     position: absolute;
@@ -237,7 +237,7 @@ body{
     left: 0;
     width: 15px;
     height: 4px;
-    background-color: #e69a25;
+    background-color: #ff6d3f;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -263,11 +263,11 @@ body{
     font-weight: 400;
 }
 .footer-link li a:hover{
-    color: #e69a25;
+    color: #ff6d3f;
 }
 .footer-meta{
     font-size: 18px;
-    color: #062440;
+    color: #152238;
     text-transform: capitalize;
     font-weight: 700;
     margin-top: 25px;
@@ -278,7 +278,7 @@ body{
     margin-bottom: 10px;
 }
 .footer-quick li a {
-    color: #062440;
+    color: #152238;
     transition: all .3s;
     font-size: 16px;
     width: 40px;
@@ -295,13 +295,13 @@ body{
     border-color: #e69a25;
 } */
 .footer-quick li a i.fa-instagram {
-    color: #e69a25;
+    color: #ff6d3f;
 }
 .footer-quick li:nth-child(1) a:hover{
-    border-color: #062440;
+    border-color: #152238;
 }
 .footer-quick li:nth-child(2) a:hover{
-    border-color: #e69a25; 
+    border-color: #ff6d3f; 
 }
 .divider {
     position: relative;
