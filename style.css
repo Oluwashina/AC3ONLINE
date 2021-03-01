@@ -163,7 +163,7 @@ body{
 .fact_icon{
     font-size: 50px;
     text-align: center;
-    color: #677286;
+    color: #062440;
 }
 .fact_number{
     font-size: 50px;
@@ -175,6 +175,35 @@ body{
     text-transform: capitalize;
     font-weight: 400;
 }
+
+/* how it works area */
+.how-it-works{ 
+    background-color: #f8f9fe;
+}
+.how_layout{
+    background-color: #fff;
+    padding: 65px 30px 40px 30px;
+    border-radius: 4px;
+    transition: all .3s;
+    margin-bottom: 30px;
+    z-index: 1;
+    border: 1px solid rgba(103,114,134,0.2);
+}
+.how_title{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 43px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.how_desc{
+    color: #677286;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+}
 /* services section */
 .btn-trade{
     color: #ff6d3f;
@@ -184,6 +213,8 @@ body{
     background-color: #ff6d3f;
     color: #fff;
 }
+
+
 
 /* faq secrion */
 .faq-area{
