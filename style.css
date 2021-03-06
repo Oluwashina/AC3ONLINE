@@ -62,10 +62,10 @@ body{
 .hero-area {
     /* color: #fff; */
     background-color: #152238;
-    /* background-image: url('./images/hero.jpg'); */
-    /* background: linear-gradient(rgba(6, 36, 64, 0.6), rgba(6, 36, 64, 0.6)), url('./images/hero.jpg'); */
+    background-image: url('./images/Landing\ Page\ BG\ Image.jpg');
+    background: linear-gradient(rgba(21, 34, 56, 0.6), rgba(21, 34, 56, 0.6)), url('./images/Landing\ Page\ BG\ Image.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right center;
 }
 /* .hero-area:before {
     position: absolute;
