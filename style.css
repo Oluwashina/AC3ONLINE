@@ -65,7 +65,7 @@ body{
     background-image: url('./images/Landing\ Page\ BG\ Image.jpg');
     background: linear-gradient(rgba(21, 34, 56, 0.6), rgba(21, 34, 56, 0.6)), url('./images/Landing\ Page\ BG\ Image.jpg');
     background-size: cover;
-    background-position: right center;
+    background-position:  center;
 }
 /* .hero-area:before {
     position: absolute;
